@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+@layer base {
+  body {
+    @apply antialiased bg-white text-slate-900;
+    font-family: 'Outfit', sans-serif;
+  }
+}
